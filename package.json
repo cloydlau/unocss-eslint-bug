@@ -1,0 +1,18 @@
+{
+  "name": "unocss-eslint-bug",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint \"**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx,vue,json,md,html,css,scss,sass}\""
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.14.0",
+    "@unocss/eslint-config": "^65.4.2",
+    "unocss": "^65.4.2",
+    "vite": "^6.0.7"
+  }
+}
